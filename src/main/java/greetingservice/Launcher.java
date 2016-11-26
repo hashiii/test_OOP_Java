@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hello;
+package greetingservice;
 
 public class Launcher {
 
-    /**
+    /**E
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Service service = new Service();
-        service.hello();
+        GreetingService service = new GreetingService();
+        service.greet();
     }
-    
+
 }
